@@ -117,8 +117,9 @@ with tabs[0]:
     ---
 
     ### 🎓 Education
-    - 🧠 **Master’s in Data Science** *(Ongoing)*
-    - 🎓 **B.E. in Computer Engineering**, University of Mumbai – 2024  *CGPA: 7.83/10*
+    - 🧠 **Master in Data Science**, IT Vedant Institute *(Ongoing)*
+    - 🎓 **B.E. in Computer Engineering**, University of Mumbai – 2024  
+        - *CGPA: 7.83/10*
 
 
     """)
@@ -167,7 +168,7 @@ with tabs[1]:
 
     with st.expander("🧠 Kidney Disease Classification Using CNN"):
         st.write("""
-         [GitHub Repo](https://github.com/jadhavgaurav/kidney_disease_classification) [Live Demo](https://kidney-disease-classification.streamlit.app/)  [Live Demo](https://website-phishing-detection.streamlit.app/) [View Experiments](https://dagshub.com/jadhavgaurav/Kidney_disease_classification_cnn.mlflow/#/experiments/0?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE)
+         [GitHub Repo](https://github.com/jadhavgaurav/kidney_disease_classification) [Live Demo](https://kidney-disease-classification.streamlit.app/)   [View Experiments](https://dagshub.com/jadhavgaurav/Kidney_disease_classification_cnn.mlflow/#/experiments/0?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE)
         -  📌 Tech Stack: Python, TensorFlow/Keras (CNN), OpenCV,MLFlow, DVC[GCP], AWS (EC2), GitHub Actions
         - Built a CNN model to classify kidney disease from CT scan images, achieving high accuracy through deep learning architecture optimization.
         - Utilized MLflow for experiment tracking  DagsHub and model performance logging across multiple training iterations.
@@ -178,7 +179,7 @@ with tabs[1]:
 
     with st.expander("🔍 Phishing Website Detection Using Machine Learning"):
         st.write("""
-        [GitHub Repo](https://github.com/jadhavgaurav/CodeB_Internship_Project)  
+        [GitHub Repo](https://github.com/jadhavgaurav/CodeB_Internship_Project)  [Live Demo](https://website-phishing-detection.streamlit.app/)
         - 📌 Tech Stack: Python, Scikit-learn, LIME, SHAP, Streamlit, GridSearchCV, GitHub Actions, CI/CD, DVC (GCP)
         - Developed a phishing detection model using structured URL-based features (85+ features, 11K+ records) with advanced feature selection techniques (f_classif, RFE, VIF) and feature engineering.
         - Optimized XGBoost using GridSearchCV, achieving 95.6% accuracy and 0.99 ROC-AUC on the test set.
@@ -277,6 +278,5 @@ with tabs[3]:
     - **Association of Computer Engineering Students (ACES) | Head of Technical Committees**
         - Managed technical operations for departmental and college-level events.
         - Led a team in organizing workshops, hackathons, and coding competitions.
-
 
     """)
