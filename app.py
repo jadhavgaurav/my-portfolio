@@ -6,7 +6,7 @@ from io import BytesIO
 
 # --- Profile Info ---
 NAME = "Gaurav Vijay Jadhav"
-DESCRIPTION = "Data Scientist | Machine Learning Engineer | Analyst"
+DESCRIPTION = "Data Scientist | Machine Learning AI Engineer"
 EMAIL = "gaurav.vjadhav01@gmail.com"
 PHONE = "+91 9322493102"
 GITHUB = "https://github.com/jadhavgaurav"
