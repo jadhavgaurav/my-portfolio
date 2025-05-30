@@ -34,31 +34,12 @@ I'm a Data Scientist and ML Engineer passionate about turning data into actionab
 
 ---
 
-## 📷 Screenshots
-
-> Add screenshots here using markdown syntax  
-> `![Home Page](path_or_url)`  
-> `![Projects](path_or_url)`
-
----
-
-## 🌐 Live App
-
-👉 [https://portfolio-gaurav-jadhav.streamlit.app/](https://portfolio-gaurav-jadhav.streamlit.app/)
-
----
 
 ## 📬 Contact
 
 - **Email**: gaurav.vjadhav01@gmail.com  
 - **GitHub**: [@jadhavgaurav](https://github.com/jadhavgaurav)  
 - **LinkedIn**: [gauravjadhav007](https://linkedin.com/in/gauravjadhav007)
-
----
-
-## 💡 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
