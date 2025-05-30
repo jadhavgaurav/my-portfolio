@@ -16,19 +16,6 @@ RESUME_LINK = "https://storage.googleapis.com/personal-portfolio-data/documents/
 # --- Page Configuration ---
 st.set_page_config(page_title="Gaurav Jadhav Portfolio", page_icon="📊", layout="wide")
 
-st.markdown(
-    """
-    <style>
-    /* Enlarge tab labels */
-    .stTabs [data-baseweb="tab"] {
-        font-size: 18px;
-        font-weight: 600;
-        padding: 10px 16px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 # --- Load Profile Image ---
 profile_img_url = "https://storage.googleapis.com/personal-portfolio-data/images/gaurav_photo.jpg"  # Replace with your image URL
@@ -135,10 +122,9 @@ with tabs[0]:
         {"name": "Advanced Excel", "icon": "📊", "level": 95},
         {"name": "Machine Learning", "icon": "🤖", "level": 90},
         {"name": "TensorFlow - ANN / CNN", "icon": "🧠", "level": 85},
-        {"name": "Power BI", "icon": "📊", "level": 70},
+        {"name": "Power BI", "icon": "📊", "level": 80},
         {"name": "Streamlit", "icon": "🌐", "level": 90},
         {"name": "Google Cloud", "icon": "☁️", "level": 80},
-        {"name": "Tableau", "icon": "📈", "level": 60},
         {"name": "HTML / CSS", "icon": "🌐", "level": 85},
         {"name": "Git, GitHub & GitHub Actions", "icon": "🧬", "level": 85},
     ]
