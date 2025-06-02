@@ -11,7 +11,7 @@ EMAIL = "gaurav.vjadhav01@gmail.com"
 PHONE = "+91 9322493102"
 GITHUB = "https://github.com/jadhavgaurav"
 LINKEDIN = "https://linkedin.com/in/gauravjadhav007"
-RESUME_LINK = "https://storage.googleapis.com/personal-portfolio-data/documents/resume/Jadhav_Gaurav_Resume.pdf"
+RESUME_LINK = "https://storage.googleapis.com/personal-portfolio-data/documents/resume/Gaurav_Jadhav_Resume.pdf"
 
 # --- Page Configuration ---
 st.set_page_config(page_title="Gaurav Jadhav Portfolio", page_icon="📊", layout="wide")
@@ -318,32 +318,39 @@ with tabs[2]:
         },
 
         {
-            "title": "AProgramming in Java",
+            "title": "Programming in Java",
             "issuer": "YHills",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/YHills_Java_course.jpg.jpg",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/YHills_Java_course.jpg",
             "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/yhills_internship.pdf"
         },
 
 
         ]
 
-    cols = st.columns(3)
-
-    for i, cert in enumerate(certifications):
-        with cols[i % 3]:
-            st.markdown(
-                f"""
-                <div style="border:1px solid #444; border-radius:10px; padding:10px; margin-bottom:20px; text-align:center;">
-                    <a href="{cert['link']}" target="_blank">
-                        <img src="{cert['thumb']}" style="width:100%; height:auto; border-radius:6px;" />
-                        <p style="margin-top:10px; font-weight:bold;">{cert['title']}</p>
-                        <p style="margin-top:-10px; font-size:13px; color:gray;">{cert['issuer']}</p>
-                    </a>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
+    # Display in rows of 3 columns
+    for i in range(0, len(certifications), 3):
+        cols = st.columns(3)
+        for col, cert in zip(cols, certifications[i:i+3]):
+            with col:
+                st.markdown(
+                    f"""
+                    <div style="
+                        border: 1px solid #919191;
+                        border-radius: 10px;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                        text-align: center;
+                        transition: 0.3s;
+                        box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+                        <a href="{cert['link']}" target="_blank" style="text-decoration: none;">
+                            <img src="{cert['thumb']}" style="width:100%; height:170px; object-fit:cover; border-radius:6px;" />
+                            <p style="margin-top:10px; font-weight:600; color:#9cdcf1;">{cert['title']}</p>
+                            <p style="margin-top:-10px; font-size:13px; color:gray;">{cert['issuer']}</p>
+                        </a>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
 
 # --- Achievements Tab ---
 with tabs[3]:
