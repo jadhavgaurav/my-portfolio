@@ -14,12 +14,13 @@ I'm a Data Scientist and ML Engineer passionate about turning data into actionab
 
 ## 🧰 Tech Stack
 
+- **Programming**: Python, SQL
 - **Frontend**: Streamlit (Python-based)
 - **ML Tools**: TensorFlow, Scikit-learn, XGBoost, MLflow, SHAP/LIME, OpenCV
 - **Experiment Tracking**: MLflow, DagsHub
-- **Versioning & Pipelines**: DVC
+- **Versioning & Pipelines**: DVC, Git and GitHub
 - **CI/CD & Cloud**: GitHub Actions, Google Cloud, AWS (EC2)
-- **Data Visualization**: Power BI, Tableau, Streamlit
+- **Data Visualization**: Power BI, Advanced Excel, MS Powerpoint
 
 ---
 
@@ -32,6 +33,25 @@ I'm a Data Scientist and ML Engineer passionate about turning data into actionab
 - **📄 Resume Download**: Hosted securely on Google Cloud Storage
 - **📷 Profile Image**: Custom-styled and rounded professional photo
 
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/jadhavgaurav/portfolio-streamlit.git
+cd portfolio-streamlit
+
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install required packages
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app.py
+```
 ---
 
 
