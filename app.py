@@ -84,32 +84,51 @@ tabs = st.tabs(["🏠 Home", "📂 Projects", "📜 Certifications", "🏆 Achie
 # --- Home Tab ---
 with tabs[0]:
     st.markdown("## 👋 Hello, I'm Gaurav")
-    
+
     st.markdown(
     """
     I'm a **Data Scientist and Machine Learning Engineer** with a strong foundation in statistics, algorithmic problem-solving, and full-cycle software development.
 
     I specialize in crafting end-to-end, data-driven solutions that address real-world business challenges using machine learning, AI, and intuitive, dashboard-driven storytelling.
+    """
+    )
 
-    ---
-    ### 🎯 Professional Summary
+    # --- Professional Summary ---
+    st.subheader("🎯 Professional Summary")
+    st.markdown(
+    """
     - ✅ Proven experience in delivering full-stack data projects — from data cleaning, feature engineering, and model building to CI/CD integration and scalable deployment.
-    - ✅ Hands-on expertise with **Data Anaysis**, **Machine Learnning**, **Artificial Neural Networks (ANN)**, **Convolutional Neural Networks (CNN)**, and **OpenCV**.
+    - ✅ Hands-on expertise with **Data Analysis**, **Machine Learning**, **Artificial Neural Networks (ANN)**, **Convolutional Neural Networks (CNN)**, and **OpenCV**.
     - ✅ Applied **MLflow** and **DagsHub** for experiment tracking and reproducibility; integrated **DVC** for robust data and pipeline versioning.
     - ✅ Automated workflows using **GitHub Actions** and deployed scalable models on **Google Cloud Platform**.
     - ✅ Developed real-time applications and interactive dashboards that enhanced decision-making and business impact.
     - ✅ Strong communicator with a passion for ethical AI, continuous learning, and building impactful solutions across industries.
-    
-    
-    ---
+    """
+    )
 
-    ### 🎓 Education
+    # --- Experience Section ---
+    st.subheader("💼 Professional Experience")
+    st.markdown(
+    """
+    ### 🔹 Data Science Intern — Code B Solutions Pvt. Ltd.
+    *Jan 2024 – Apr 2024 (Remote)*  
+    - Worked on real-world data science problems using supervised machine learning and model deployment techniques.
+    - Built a phishing website detection model with over 95% accuracy, applying feature selection (f_classif, RFE, VIF), XGBoost, and SHAP/LIME for interpretability.
+    - Automated versioning using DVC and integrated CI/CD workflows using GitHub Actions and Google Cloud Storage.
+    - Deployed a Streamlit web app for real-time phishing detection predictions.
+    """
+    )
+
+    # --- Education ---
+    st.subheader("🎓 Education")
+    st.markdown(
+    """
     - 🧠 **Master in Data Science**, IT Vedant Institute *(Ongoing)*
     - 🎓 **B.E. in Computer Engineering**, University of Mumbai – 2024  
-        - *CGPA: 7.83/10*
+      - *CGPA: 7.83/10*
+    """
+    )
 
-
-    """)
 
 #  --- Skills Section ---
 
@@ -154,7 +173,7 @@ with tabs[1]:
 
     with st.expander("🧠 Kidney Disease Classification Using CNN"):
         st.write("""
-         [GitHub Repo](https://github.com/jadhavgaurav/kidney_disease_classification) [Live Demo](https://kidney-disease-classification.streamlit.app/)   [View Experiments](https://dagshub.com/jadhavgaurav/Kidney_disease_classification_cnn.mlflow/#/experiments/0?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE)
+         [GitHub Repo](https://github.com/jadhavgaurav/kidney_disease_classification) \t [Live Demo](https://kidney-disease-classification.streamlit.app/) \t  [View Experiments](https://dagshub.com/jadhavgaurav/Kidney_disease_classification_cnn.mlflow/#/experiments/0?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE)
         -  📌 Tech Stack: Python, TensorFlow/Keras (CNN), OpenCV,MLFlow, DVC[GCP], AWS (EC2), GitHub Actions
         - Built a CNN model to classify kidney disease from CT scan images, achieving high accuracy through deep learning architecture optimization.
         - Utilized MLflow for experiment tracking  DagsHub and model performance logging across multiple training iterations.
@@ -165,7 +184,7 @@ with tabs[1]:
 
     with st.expander("🔍 Phishing Website Detection Using Machine Learning"):
         st.write("""
-        [GitHub Repo](https://github.com/jadhavgaurav/CodeB_Internship_Project)  [Live Demo](https://website-phishing-detection.streamlit.app/)
+        [GitHub Repo](https://github.com/jadhavgaurav/CodeB_Internship_Project) \t [Live Demo](https://website-phishing-detection.streamlit.app/)
         - 📌 Tech Stack: Python, Scikit-learn, LIME, SHAP, Streamlit, GridSearchCV, GitHub Actions, CI/CD, DVC (GCP)
         - Developed a phishing detection model using structured URL-based features (85+ features, 11K+ records) with advanced feature selection techniques (f_classif, RFE, VIF) and feature engineering.
         - Optimized XGBoost using GridSearchCV, achieving 95.6% accuracy and 0.99 ROC-AUC on the test set.
@@ -176,7 +195,7 @@ with tabs[1]:
 
     with st.expander("📊 Insurance Premium Estimation Using Machine Learning "):
         st.write("""
-        [GitHub Repo](https://github.com/jadhavgaurav/Insurance-premium-prediction-using-MachineLearning) [Live Demo](https://insurance-premium-regression-gj.streamlit.app/)
+        [GitHub Repo](https://github.com/jadhavgaurav/Insurance-premium-prediction-using-MachineLearning) \t [Live Demo](https://insurance-premium-regression-gj.streamlit.app/)
         - 📌 Tech Stack: Python (Pandas, NumPy, Seaborn, Matplotlib), Machine Learning (Scikit-Learn), Streamlit, GitHub Actions 
         - Developed an SVR-based predictive model for insurance premium forecasting, analysing 1,000+ records with a testing R² score of 0.88.
         - Applied hyperparameter tuning, feature engineering, and 5-fold cross-validation to enhance model accuracy and robustness.
@@ -206,28 +225,79 @@ with tabs[2]:
         {
             "title": "Master in data science, Data Analytics with Artificial Intelligence ",
             "issuer": "IT Vedant",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/images/IT_Vedant_course.jpg",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/IT_Vedant_course.jpg",
             "link": "https://itv-uploads.s3.ap-south-1.amazonaws.com/certificates/cce_certificate16866_.jpg"
         },
 
         {
             "title": "Data Analysis with Python",
             "issuer": "IBM",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/images/IBM_Data_Analytics.jpg",
-            "link": "https://coursera.org/verify/your-cert-id"
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/IBM_Data_Analytics.jpg",
+            "link": "https://courses.itvedant.skillsnetwork.site/certificates/1dcb6593cf8b453a820ae087fef4dfbc"
         },
         {
             "title": "British Airways Job Simulation",
             "issuer": "Forage",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/images/British_Airways.jpg",
-            "link": "https://www.theforage.com/certificate-link"
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/British_Airways.jpg",
+            "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_BDMeYtyNdPZ92hrLe_1744874550790_completion_certificate.pdf"
         },
         {
             "title": "Data Science 360",
             "issuer": "FutureSkills Prime",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/images/Data_Science_360.jpg",
-            "link": "https://futureskillsprime.in/verify/certificate"
-        }
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Data_Science_360.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Data_Science_360.pdf"
+        },
+        
+        {
+            "title": "Advanced Excel",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+        },
+        {
+            "title": "Machine Learning with Python",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Machine_Learning.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Machine_Learning.pdf"
+        },
+        {
+            "title": "Python for Data Science",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Python_for_Data_Science.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Python_for_Data_Science.pdf"
+        },
+        {
+            "title": "SQL for Data Science",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/SQL_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_SQL.pdf"
+        },
+        {
+            "title": "Data Visualization with Power BI",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Android.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Android.pdf"
+        },
+        {
+            "title": "Android Flutter Application Development",
+            "issuer": "Mind Script",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+        },
+        {
+            "title": "Workshop on Excel Using AI",
+            "issuer": "Office Master",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/office_master_excel.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Excel_OfficeMaster.pdf"
+        },
+        {
+            "title": "React JS",
+            "issuer": "Internshala",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/React_Certificate.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/React_Internshala.pdf"
+        },
+        
+
         ]
 
     cols = st.columns(3)
