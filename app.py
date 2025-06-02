@@ -279,8 +279,8 @@ with tabs[2]:
         {
             "title": "Data Visualization with Power BI",
             "issuer": "IT Vedant",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Android.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Android.pdf"
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Power_BI_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_PowerBI.pdf"
         },
         {
             "title": "Workshop on Excel Using AI",
@@ -299,8 +299,8 @@ with tabs[2]:
         {
             "title": "Android Flutter Application Development",
             "issuer": "Mind Script",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Android.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Android.pdf"
         },
 
         {
@@ -312,16 +312,16 @@ with tabs[2]:
 
         {
             "title": "Blockchain A-Z: Learn How To Build Your First Blockchain",
-            "issuer": "Mind Script",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+            "issuer": "Udemy",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Udemy_Blockchain.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Udemy_blockchain.pdf"
         },
 
         {
-            "title": "Android Flutter Application Development",
-            "issuer": "Mind Script",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+            "title": "AProgramming in Java",
+            "issuer": "YHills",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/YHills_Java_course.jpg.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/yhills_internship.pdf"
         },
 
 
