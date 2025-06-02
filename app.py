@@ -228,6 +228,12 @@ with tabs[2]:
             "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/IT_Vedant_course.jpg",
             "link": "https://itv-uploads.s3.ap-south-1.amazonaws.com/certificates/cce_certificate16866_.jpg"
         },
+        {
+            "title": "British Airways Job Simulation",
+            "issuer": "Forage",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/British_Airways.jpg",
+            "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_BDMeYtyNdPZ92hrLe_1744874550790_completion_certificate.pdf"
+        },
 
         {
             "title": "Data Analysis with Python",
@@ -235,17 +241,33 @@ with tabs[2]:
             "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/IBM_Data_Analytics.jpg",
             "link": "https://courses.itvedant.skillsnetwork.site/certificates/1dcb6593cf8b453a820ae087fef4dfbc"
         },
-        {
-            "title": "British Airways Job Simulation",
-            "issuer": "Forage",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/British_Airways.jpg",
-            "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_BDMeYtyNdPZ92hrLe_1744874550790_completion_certificate.pdf"
-        },
+
         {
             "title": "Data Science 360",
             "issuer": "FutureSkills Prime",
             "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Data_Science_360.jpg",
             "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Data_Science_360.pdf"
+        },
+
+        {
+            "title": "Machine Learning with Python",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Machine_Learning.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Machine_Learning.pdf"
+        },
+
+        {
+            "title": "Python for Data Science",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Python_for_Data_Science.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Python_for_Data_Science.pdf"
+        },
+
+        {
+            "title": "SQL for Data Science",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/SQL_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_SQL.pdf"
         },
         
         {
@@ -255,34 +277,10 @@ with tabs[2]:
             "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
         },
         {
-            "title": "Machine Learning with Python",
-            "issuer": "IT Vedant",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Machine_Learning.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Machine_Learning.pdf"
-        },
-        {
-            "title": "Python for Data Science",
-            "issuer": "IT Vedant",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Python_for_Data_Science.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Python_for_Data_Science.pdf"
-        },
-        {
-            "title": "SQL for Data Science",
-            "issuer": "IT Vedant",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/SQL_ITV.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_SQL.pdf"
-        },
-        {
             "title": "Data Visualization with Power BI",
             "issuer": "IT Vedant",
             "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Android.jpg",
             "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Android.pdf"
-        },
-        {
-            "title": "Android Flutter Application Development",
-            "issuer": "Mind Script",
-            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
-            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
         },
         {
             "title": "Workshop on Excel Using AI",
@@ -290,6 +288,7 @@ with tabs[2]:
             "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/office_master_excel.jpg",
             "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Excel_OfficeMaster.pdf"
         },
+
         {
             "title": "React JS",
             "issuer": "Internshala",
@@ -297,6 +296,34 @@ with tabs[2]:
             "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/React_Internshala.pdf"
         },
         
+        {
+            "title": "Android Flutter Application Development",
+            "issuer": "Mind Script",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+        },
+
+        {
+            "title": "Data Visualization with Tableau",
+            "issuer": "IT Vedant",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Tableau.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/Tableau_ITV.pdf"
+        },
+
+        {
+            "title": "Blockchain A-Z: Learn How To Build Your First Blockchain",
+            "issuer": "Mind Script",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+        },
+
+        {
+            "title": "Android Flutter Application Development",
+            "issuer": "Mind Script",
+            "thumb": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/images/Excel_Certificate_ITV.jpg",
+            "link": "https://storage.googleapis.com/personal-portfolio-data/documents/certificates/ITVedant_Excel.pdf"
+        },
+
 
         ]
 
