@@ -173,7 +173,7 @@ with tabs[1]:
 
     with st.expander("🧠 Kidney Disease Classification Using CNN"):
         st.write("""
-         [GitHub Repo](https://github.com/jadhavgaurav/kidney_disease_classification) \t [Live Demo](https://kidney-disease-classification.streamlit.app/) \t  [View Experiments](https://dagshub.com/jadhavgaurav/Kidney_disease_classification_cnn.mlflow/#/experiments/0?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE)
+         [GitHub Repo](https://github.com/jadhavgaurav/kidney_disease_classification) \t [Live Demo](http://ec2-51-21-160-142.eu-north-1.compute.amazonaws.com/) \t  [View Experiments](https://dagshub.com/jadhavgaurav/Kidney_disease_classification_cnn.mlflow/#/experiments/0?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE)
         -  📌 Tech Stack: Python, TensorFlow/Keras (CNN), OpenCV,MLFlow, DVC[GCP], AWS (EC2), GitHub Actions
         - Built a CNN model to classify kidney disease from CT scan images, achieving high accuracy through deep learning architecture optimization.
         - Utilized MLflow for experiment tracking  DagsHub and model performance logging across multiple training iterations.
